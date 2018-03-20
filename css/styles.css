@@ -1,11 +1,16 @@
-body {
-  background-color: lightblue;
-}
+/* This is a comment */
 
-#about-img {
-  width: 400px;
-}
-
+/* A selector is used to reference an HTML element
+Reference a standard tag with its name */
 h1 {
-  color: white;
+  /* Change the text color of all h1 elements */
+  color: #9900cc; /* End a statement with a semicolon */
 }
+
+/* An id selector is used for a style that is applied to a single element.
+Reference an ID with a # */
+#tag-name {}
+
+/* A class selector is used for a style that is applied to multiple elements
+Reference a class with a . */
+.class-name {}
